@@ -189,7 +189,7 @@
         new_time1 = ":".join(final_time)
 
 #### Set a value z = 0. If hz is greater than 24, while that's the case, subtract 24 from it until it's below 24, adding 1 to z each time to denote that a day is being added. The number of days = z + time_swap. 
-* *(ex. We can be adding 3 hours from 11:00 PM to 2:00 AM, but a day is being added, so z = 0 as it will not run the while loop and time_swap = 1, meaning days = 1)* *
+*(ex. We can be adding 3 hours from 11:00 PM to 2:00 AM, but a day is being added, so z = 0 as it will not run the while loop and time_swap = 1, meaning days = 1)*
         
         z = 0
 
